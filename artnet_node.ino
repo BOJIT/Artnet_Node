@@ -1,3 +1,31 @@
+/***************************************************************************
+*
+* Title          : Arduino ArtNet Node UPDATED FOR LATEST LIBRARY VERSION
+* Version        : v1.2
+* Last updated   : 18.02.2018
+* Contributers	 : James Bennion-Pedley, Alex Forey
+* Web            : https://bojit.github.io/ source: https://newfangled.me, https://alexforey.com
+* Target         : Arduino Mega 2560, Arduino Mega 1280, Arduino Uno
+* Based on code from
+  * Toni Merino, http://www.deskontrol.net/blog  merino.toni@gmail.com
+  * Christoph Guillermet, http://www.le-chat-noir-numerique.fr  karistouf@yahoo.fr
+* Structures and definitions (common.h and packet.h) from libartnet (c)Simon Newton and Lutz Hillebrand (ilLUTZminator), www.opendmx.net
+*
+* Art-Net™ Designed by and Copyright Artistic Licence Holdings Ltd.
+*
+***************************************************************************
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License
+ as published by the Free Software Foundation; either version2 of
+ the License, or (at your option) any later version.
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ General Public License for more details.
+ If you have no copy of the GNU General Public License, write to the
+ Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+ For other license models, please contact the author.
+;***************************************************************************/
 //#include <Encoder.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
